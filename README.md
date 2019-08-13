@@ -56,3 +56,6 @@ To run the sample:
 ```
 LD_LIBRARY_PATH=experimental/plugins/postgres_storage/target/debug/ node anoncredsRevocationStorage.js
 ```
+
+# Known Issues
+Postgres plugin doesn't handle mixed case wallet names. Lowercase wallet names should be used. 
