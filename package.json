@@ -1,0 +1,16 @@
+{
+  "name": "anoncredsRevocationStorage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "anoncredsRevocationStorage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrej Zirko <andrej.zirko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ffi": "^2.3.0",
+    "indy-sdk": "^1.11.0-dev-1233"
+  }
+}
